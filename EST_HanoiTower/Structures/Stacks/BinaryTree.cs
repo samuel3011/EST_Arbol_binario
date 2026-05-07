@@ -29,7 +29,11 @@ public class BinaryTree<T> : ITree<T>
         }
         return false;
     }
-
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <returns></returns>
+    /// <exception cref="NotImplementedException"></exception>
     public int Count()
     {
         throw new NotImplementedException();

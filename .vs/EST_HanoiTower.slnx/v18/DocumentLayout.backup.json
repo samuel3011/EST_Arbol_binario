@@ -121,7 +121,11 @@
               "RelativeDocumentMoniker": "EST_HanoiTower\\Structures\\Stacks\\BinaryTree.cs",
               "ToolTip": "C:\\Users\\jhont\\source\\repos\\EST_HanoiTower\\EST_HanoiTower\\Structures\\Stacks\\BinaryTree.cs",
               "RelativeToolTip": "EST_HanoiTower\\Structures\\Stacks\\BinaryTree.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAAwAAAAAAAAAAAA5wB4AAAAFAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T13:34:57.095Z",
               "EditorCaption": ""
