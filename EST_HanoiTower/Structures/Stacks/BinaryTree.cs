@@ -44,9 +44,20 @@ public class BinaryTree<T> : ITree<T>
         return Root;
     }
 
-    public int Height()
+    public int Height(  NodeTree<T> value)
     {
-        throw new NotImplementedException();
+         if(Root == null)
+         {
+         return 0;
+         }
+
+        //Altura izq
+        int Heightleft = Height(Root.left);
+        //Altura der
+        int  Heightright = Height(Root.right);
+
+        return Math.Max(Heightleft, Heightright) +1;
+       
     }
 
     public void InOrder()
