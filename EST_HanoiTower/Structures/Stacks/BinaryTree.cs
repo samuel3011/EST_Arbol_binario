@@ -12,33 +12,21 @@ public class BinaryTree<T> : ITree<T>
 
     public bool Contains(T data)
     {
-        NodeTree<T> newNode = new NodeTree<T>(data);
-
         if (Root == null) return false;
 
         Queue<NodeTree<T>> queue = new Queue<NodeTree<T>>();
         queue.Enqueue(Root);
         NodeTree<T> current = queue.Dequeue();
 
-        if (current.left == newNode)
-        {
-            return true;
-        }
-        else
-        {
-            queue.Enqueue(current.left);
-        }
 
-        if (current.right == newNode)
+        while (queue.Count > 0)
         {
-            
-            return true;
-        }
-        else
-        {
-            queue.Enqueue(current.right);
-        }
+            if (current.Value.Equals(data)) return true;
 
+            if (current.left != null) queue.Enqueue(current.left);
+
+            if (current.right != null) queue.Enqueue(current.right);
+        }
         return false;
     }
 
