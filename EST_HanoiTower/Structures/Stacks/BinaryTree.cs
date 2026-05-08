@@ -29,14 +29,19 @@ public class BinaryTree<T> : ITree<T>
         }
         return false;
     }
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <returns></returns>
-    /// <exception cref="NotImplementedException"></exception>
-    public int Count()
+   
+    public int Count(NodeTree<T> velue)
     {
-        throw new NotImplementedException();
+         if(Root == null)
+         {
+            return 0;
+         }
+         //Contar izq   
+        int left = Count(Root.left);
+        //Contar der
+        int right = Count(Root.right);
+
+        return 1 + left + right;
     }
 
     public NodeTree<T>? GetRoot()
