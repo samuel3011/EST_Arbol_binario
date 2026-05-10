@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Samuel\\Documents\\GitHub\\githr\\",
+  "WorkspaceRootPath": "C:\\Users\\jhont\\source\\repos\\EST_HanoiTower\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|c:\\users\\samuel\\documents\\github\\githr\\est_hanoitower\\structures\\stacks\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|c:\\users\\jhont\\source\\repos\\est_hanoitower\\est_hanoitower\\structures\\stacks\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|solutionrelative:est_hanoitower\\structures\\stacks\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|c:\\users\\samuel\\documents\\github\\githr\\est_hanoitower\\nodes\\nodetree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|solutionrelative:est_hanoitower\\nodes\\nodetree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|c:\\users\\samuel\\documents\\github\\githr\\est_hanoitower\\interfaces\\itree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|c:\\users\\jhont\\source\\repos\\est_hanoitower\\est_hanoitower\\interfaces\\itree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|solutionrelative:est_hanoitower\\interfaces\\itree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|c:\\users\\samuel\\documents\\github\\githr\\est_hanoitower\\structures\\stacks\\arraystack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|c:\\users\\jhont\\source\\repos\\est_hanoitower\\est_hanoitower\\nodes\\nodetree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|solutionrelative:est_hanoitower\\nodes\\nodetree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|c:\\users\\jhont\\source\\repos\\est_hanoitower\\est_hanoitower\\structures\\stacks\\arraystack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|solutionrelative:est_hanoitower\\structures\\stacks\\arraystack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|c:\\users\\samuel\\documents\\github\\githr\\est_hanoitower\\interfaces\\istack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|c:\\users\\jhont\\source\\repos\\est_hanoitower\\est_hanoitower\\interfaces\\istack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|solutionrelative:est_hanoitower\\interfaces\\istack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|c:\\users\\samuel\\documents\\github\\githr\\est_hanoitower\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|c:\\users\\jhont\\source\\repos\\est_hanoitower\\est_hanoitower\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|solutionrelative:est_hanoitower\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|C:\\Users\\Samuel\\Documents\\GitHub\\githr\\est_hanoitower\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|C:\\Users\\jhont\\source\\repos\\EST_HanoiTower\\est_hanoitower\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|solutionrelative:est_hanoitower\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|c:\\users\\samuel\\documents\\github\\githr\\est_hanoitower\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|c:\\users\\jhont\\source\\repos\\est_hanoitower\\est_hanoitower\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95408FAC-0E98-70D1-B975-9CDE3BE67696}|EST_HanoiTower\\EST_HanoiTower.csproj|solutionrelative:est_hanoitower\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -62,10 +62,10 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Samuel\\Documents\\GitHub\\githr\\EST_HanoiTower\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\jhont\\source\\repos\\EST_HanoiTower\\EST_HanoiTower\\Form1.cs",
               "RelativeDocumentMoniker": "EST_HanoiTower\\Form1.cs",
               "ToolTip": "C:\\Users\\jhont\\source\\repos\\EST_HanoiTower\\EST_HanoiTower\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\jhont\\source\\repos\\EST_HanoiTower\\EST_HanoiTower\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "EST_HanoiTower\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-07T17:28:33.722Z"
             },
@@ -73,9 +73,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel\\Documents\\GitHub\\githr\\EST_HanoiTower\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\jhont\\source\\repos\\EST_HanoiTower\\EST_HanoiTower\\Form1.cs",
               "RelativeDocumentMoniker": "EST_HanoiTower\\Form1.cs",
-              "ToolTip": "C:\\Users\\Samuel\\Documents\\GitHub\\githr\\EST_HanoiTower\\Form1.cs",
+              "ToolTip": "C:\\Users\\jhont\\source\\repos\\EST_HanoiTower\\EST_HanoiTower\\Form1.cs",
               "RelativeToolTip": "EST_HanoiTower\\Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -85,9 +85,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel\\Documents\\GitHub\\githr\\EST_HanoiTower\\Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\jhont\\source\\repos\\EST_HanoiTower\\EST_HanoiTower\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "EST_HanoiTower\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\Samuel\\Documents\\GitHub\\githr\\EST_HanoiTower\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\jhont\\source\\repos\\EST_HanoiTower\\EST_HanoiTower\\Form1.Designer.cs",
               "RelativeToolTip": "EST_HanoiTower\\Form1.Designer.cs",
               "ViewState": "AgIAAIsAAAAAAAAAAAAAAJ0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -95,39 +95,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ITree.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel\\Documents\\GitHub\\githr\\EST_HanoiTower\\Interfaces\\ITree.cs",
+              "DocumentMoniker": "C:\\Users\\jhont\\source\\repos\\EST_HanoiTower\\EST_HanoiTower\\Interfaces\\ITree.cs",
               "RelativeDocumentMoniker": "EST_HanoiTower\\Interfaces\\ITree.cs",
-              "ToolTip": "C:\\Users\\Samuel\\Documents\\GitHub\\githr\\EST_HanoiTower\\Interfaces\\ITree.cs",
+              "ToolTip": "C:\\Users\\jhont\\source\\repos\\EST_HanoiTower\\EST_HanoiTower\\Interfaces\\ITree.cs",
               "RelativeToolTip": "EST_HanoiTower\\Interfaces\\ITree.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-07T17:28:33.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "NodeTree.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel\\Documents\\GitHub\\githr\\EST_HanoiTower\\Nodes\\NodeTree.cs",
+              "DocumentMoniker": "C:\\Users\\jhont\\source\\repos\\EST_HanoiTower\\EST_HanoiTower\\Nodes\\NodeTree.cs",
               "RelativeDocumentMoniker": "EST_HanoiTower\\Nodes\\NodeTree.cs",
-              "ToolTip": "C:\\Users\\Samuel\\Documents\\GitHub\\githr\\EST_HanoiTower\\Nodes\\NodeTree.cs",
+              "ToolTip": "C:\\Users\\jhont\\source\\repos\\EST_HanoiTower\\EST_HanoiTower\\Nodes\\NodeTree.cs",
               "RelativeToolTip": "EST_HanoiTower\\Nodes\\NodeTree.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T17:28:33.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T17:28:33.837Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BinaryTree.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel\\Documents\\GitHub\\githr\\EST_HanoiTower\\Structures\\Stacks\\BinaryTree.cs",
+              "DocumentMoniker": "C:\\Users\\jhont\\source\\repos\\EST_HanoiTower\\EST_HanoiTower\\Structures\\Stacks\\BinaryTree.cs",
               "RelativeDocumentMoniker": "EST_HanoiTower\\Structures\\Stacks\\BinaryTree.cs",
-              "ToolTip": "C:\\Users\\Samuel\\Documents\\GitHub\\githr\\EST_HanoiTower\\Structures\\Stacks\\BinaryTree.cs",
+              "ToolTip": "C:\\Users\\jhont\\source\\repos\\EST_HanoiTower\\EST_HanoiTower\\Structures\\Stacks\\BinaryTree.cs",
               "RelativeToolTip": "EST_HanoiTower\\Structures\\Stacks\\BinaryTree.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-07T17:28:33.843Z",
               "EditorCaption": ""
@@ -136,22 +135,21 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ArrayStack.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel\\Documents\\GitHub\\githr\\EST_HanoiTower\\Structures\\Stacks\\ArrayStack.cs",
+              "DocumentMoniker": "C:\\Users\\jhont\\source\\repos\\EST_HanoiTower\\EST_HanoiTower\\Structures\\Stacks\\ArrayStack.cs",
               "RelativeDocumentMoniker": "EST_HanoiTower\\Structures\\Stacks\\ArrayStack.cs",
-              "ToolTip": "C:\\Users\\Samuel\\Documents\\GitHub\\githr\\EST_HanoiTower\\Structures\\Stacks\\ArrayStack.cs",
+              "ToolTip": "C:\\Users\\jhont\\source\\repos\\EST_HanoiTower\\EST_HanoiTower\\Structures\\Stacks\\ArrayStack.cs",
               "RelativeToolTip": "EST_HanoiTower\\Structures\\Stacks\\ArrayStack.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T17:28:33.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T17:28:33.855Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "IStack.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel\\Documents\\GitHub\\githr\\EST_HanoiTower\\Interfaces\\IStack.cs",
+              "DocumentMoniker": "C:\\Users\\jhont\\source\\repos\\EST_HanoiTower\\EST_HanoiTower\\Interfaces\\IStack.cs",
               "RelativeDocumentMoniker": "EST_HanoiTower\\Interfaces\\IStack.cs",
-              "ToolTip": "C:\\Users\\Samuel\\Documents\\GitHub\\githr\\EST_HanoiTower\\Interfaces\\IStack.cs",
+              "ToolTip": "C:\\Users\\jhont\\source\\repos\\EST_HanoiTower\\EST_HanoiTower\\Interfaces\\IStack.cs",
               "RelativeToolTip": "EST_HanoiTower\\Interfaces\\IStack.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -162,9 +160,9 @@
               "DocumentIndex": 9,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\jhont\\source\\repos\\EST_Interfaz\\EST_Interfaz\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\jhont\\source\\repos\\EST_Interfaz\\EST_Interfaz\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "..\\EST_Interfaz\\EST_Interfaz\\Form1.Designer.cs",
               "ToolTip": "C:\\Users\\jhont\\source\\repos\\EST_Interfaz\\EST_Interfaz\\Form1.Designer.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\jhont\\source\\repos\\EST_Interfaz\\EST_Interfaz\\Form1.Designer.cs",
+              "RelativeToolTip": "..\\EST_Interfaz\\EST_Interfaz\\Form1.Designer.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-07T17:28:33.874Z"
@@ -174,9 +172,9 @@
               "DocumentIndex": 8,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\jhont\\source\\repos\\EST_Interfaz\\EST_Interfaz\\Form1.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\jhont\\source\\repos\\EST_Interfaz\\EST_Interfaz\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\EST_Interfaz\\EST_Interfaz\\Form1.cs",
               "ToolTip": "C:\\Users\\jhont\\source\\repos\\EST_Interfaz\\EST_Interfaz\\Form1.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\jhont\\source\\repos\\EST_Interfaz\\EST_Interfaz\\Form1.cs",
+              "RelativeToolTip": "..\\EST_Interfaz\\EST_Interfaz\\Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-07T17:28:33.877Z"

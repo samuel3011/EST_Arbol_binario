@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Xml.Linq;
 
-public class BinaryTree<T> : ITree<T>
+public class BinaryTree<T> : ITree<T> where T : IComparable<T>
 {
     public NodeTree<T> Root;
 
     public void Clear()
     {
-        throw new NotImplementedException();
+        Root = null;
     }
 
     public bool Contains(T data)
@@ -16,32 +16,32 @@ public class BinaryTree<T> : ITree<T>
 
         Queue<NodeTree<T>> queue = new Queue<NodeTree<T>>();
         queue.Enqueue(Root);
-        NodeTree<T> current = queue.Dequeue();
-
 
         while (queue.Count > 0)
         {
+            NodeTree<T> current = queue.Dequeue();
+
             if (current.Value.Equals(data)) return true;
 
             if (current.left != null) queue.Enqueue(current.left);
 
             if (current.right != null) queue.Enqueue(current.right);
         }
+
         return false;
     }
-   
-    public int Count(NodeTree<T> velue)
-    {
-         if(Root == null)
-         {
-            return 0;
-         }
-         //Contar izq   
-        int left = Count(Root.left);
-        //Contar der
-        int right = Count(Root.right);
 
-        return 1 + left + right;
+    public int Count()
+    {
+        return CountNodes(Root);
+    }
+
+
+    private int CountNodes(NodeTree<T> node)
+    {
+        if (node == null) return 0;
+
+        return 1 + CountNodes(node.left) + CountNodes(node.right);
     }
 
     public NodeTree<T>? GetRoot()
@@ -49,20 +49,29 @@ public class BinaryTree<T> : ITree<T>
         return Root;
     }
 
-    public int Height(  NodeTree<T> value)
+    public int Height()
     {
-         if(Root == null)
-         {
-         return 0;
-         }
+        return Height(Root);
+    }
 
-        //Altura izq
-        int Heightleft = Height(Root.left);
-        //Altura der
-        int  Heightright = Height(Root.right);
+    private int Height(NodeTree<T> node)
+    {
+        if (node == null)  return 0;
+        
+        // Altura izquierda
+        int Heightleft = Height(node.left);
 
-        return Math.Max(Heightleft, Heightright) +1;
-       
+        // Altura derecha
+        int Heightright = Height(node.right);
+
+        if (Heightleft > Heightright)
+        {
+            return Heightleft + 1;
+        }
+        else
+        {
+            return Heightleft + 1;
+        }
     }
 
     public void InOrder()
@@ -150,12 +159,62 @@ public class BinaryTree<T> : ITree<T>
 
     public T Max()
     {
-        throw new NotImplementedException();
+        if (Root == null)
+            throw new Exception("El árbol está vacío");
+
+        T max = Root.Value;
+
+        Queue<NodeTree<T>> queue = new Queue<NodeTree<T>>();
+        queue.Enqueue(Root);
+
+        while (queue.Count > 0)
+        {
+            NodeTree<T> current = queue.Dequeue();
+
+            // Comparar
+            if (current.Value.CompareTo(max) > 0)
+            {
+                max = current.Value;
+            }
+
+            if (current.left != null)
+                queue.Enqueue(current.left);
+
+            if (current.right != null)
+                queue.Enqueue(current.right);
+        }
+
+        return max;
     }
 
     public T Min()
     {
-        throw new NotImplementedException();
+        if (Root == null)
+            throw new Exception("El árbol está vacío");
+
+        T min = Root.Value;
+
+        Queue<NodeTree<T>> queue = new Queue<NodeTree<T>>();
+        queue.Enqueue(Root);
+
+        while (queue.Count > 0)
+        {
+            NodeTree<T> actual = queue.Dequeue();
+
+            // Comparar
+            if (actual.Value.CompareTo(min) < 0)
+            {
+                min = actual.Value;
+            }
+
+            if (actual.left != null)
+                queue.Enqueue(actual.left);
+
+            if (actual.right != null)
+                queue.Enqueue(actual.right);
+        }
+
+        return min;
     }
 
     public void PostOrder()
@@ -188,7 +247,7 @@ public class BinaryTree<T> : ITree<T>
 
     public T remove(T data)
     {
-        if (Root == null) return default(T);
+        if (Root == null) return default;
 
         Queue<NodeTree<T>> queue = new Queue<NodeTree<T>>();
         queue.Enqueue(Root);
@@ -209,7 +268,7 @@ public class BinaryTree<T> : ITree<T>
             if (Last.right != null) queue.Enqueue(Last.right);
         }
 
-        if (NodeToDelete == null) return default(T);
+        if (NodeToDelete == null) return default;
 
         T Deleted = NodeToDelete.Value;
 
@@ -238,7 +297,8 @@ public class BinaryTree<T> : ITree<T>
             }
              if (current.right == node)
             {
-                  current.right = null;
+                current.right = null;
+                return;
             }
 
             if (current.left != null)
