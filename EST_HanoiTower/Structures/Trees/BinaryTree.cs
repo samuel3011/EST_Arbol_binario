@@ -70,22 +70,20 @@ public class BinaryTree<T> : ITree<T> where T : IComparable<T>
         }
         else
         {
-            return Heightleft + 1;
+            return Heightright + 1;
         }
     }
 
-    public void InOrder()
+    public string InOrder()
     {
-        InOrder(Root);
+        return InOrder(Root);
     }
 
-    public void InOrder(NodeTree<T> node)
+    public string InOrder(NodeTree<T> node)
     {
-        if (node == null) return;
+        if (node == null) return "";
 
-        InOrder(node.left);
-        Console.WriteLine(node.Value);
-        InOrder(node.right);
+        return InOrder(node.left) + node.Value + " " + InOrder(node.right);
     }
 
     public void Insert(T data)
@@ -133,9 +131,11 @@ public class BinaryTree<T> : ITree<T> where T : IComparable<T>
         return (Root == null);
     }
 
-    public void LevelOrder()
+    public string LevelOrder()
     {
-        if (Root == null) return;
+        if (Root == null) return "";
+
+        string result = "";
 
         Queue<NodeTree<T>> queue = new Queue<NodeTree<T>>();
         queue.Enqueue(Root);
@@ -143,7 +143,8 @@ public class BinaryTree<T> : ITree<T> where T : IComparable<T>
         while (queue.Count > 0)
         {
             NodeTree<T> current = queue.Dequeue();
-            Console.WriteLine(current.Value);
+
+            result += current.Value + " ";
 
             if (current.left != null)
             {
@@ -155,6 +156,8 @@ public class BinaryTree<T> : ITree<T> where T : IComparable<T>
                 queue.Enqueue(current.right);
             }
         }
+
+        return result;
     }
 
     public T Max()
@@ -217,32 +220,28 @@ public class BinaryTree<T> : ITree<T> where T : IComparable<T>
         return min;
     }
 
-    public void PostOrder()
+    public string PostOrder()
     {
-        PostOrder(Root);
+        return PostOrder(Root);
     }
 
-    public void PostOrder(NodeTree<T> node)
+    public string PostOrder(NodeTree<T> node)
     {
-        if (node == null) return;
+        if (node == null) return "";
 
-        PostOrder(node.left);
-        PostOrder(node.right);
-        Console.WriteLine(node.Value);
+        return PostOrder(node.left) + PostOrder(node.right) + node.Value + " ";
     }
 
-    public void PreOrder()
+    public string PreOrder()
     {
-        PreOrder(Root);
+        return PreOrder(Root);
     }
 
-    public void PreOrder(NodeTree<T> node)
+    public string PreOrder(NodeTree<T> node)
     {
-        if (node == null) return;
+        if (node == null) return "";
 
-        Console.WriteLine(node.Value);
-        PreOrder(node.left);
-        PreOrder(node.right);
+        return node.Value + " " + PreOrder(node.left) + PreOrder(node.right);
     }
 
     public T remove(T data)
@@ -312,5 +311,127 @@ public class BinaryTree<T> : ITree<T> where T : IComparable<T>
             }
         }
         
+    }
+
+    public bool IsDegenerate()
+    {
+        return IsDegenerate(Root);
+    }
+
+    private bool IsDegenerate(NodeTree<T> node)
+    {
+        if (node == null)
+        {
+            return true;
+        }
+
+        // Tiene dos hijos
+        if (node.left != null && node.right != null)
+        {
+            return false;
+        }
+
+        return IsDegenerate(node.left) && IsDegenerate(node.right);
+    }
+
+    public bool IsBalanced()
+    {
+        return IsBalanced(Root);
+    }
+
+    private bool IsBalanced(NodeTree<T> node)
+    {
+        if (node == null)
+        {
+            return true;
+        }
+
+        int leftHeight = Height(node.left);
+
+        int rightHeight = Height(node.right);
+
+        int difference = leftHeight - rightHeight;
+
+        if (difference < 0)
+        {
+            difference = difference * -1;
+        }
+
+        if (difference > 1)
+        {
+            return false;
+        }
+
+        return IsBalanced(node.left) && IsBalanced(node.right);
+    }
+
+    public bool IsFull()
+    {
+        return IsFull(Root);
+    }
+
+    private bool IsFull(NodeTree<T> node)
+    {
+        if (node == null)
+        {
+            return true;
+        }
+
+        // Hoja
+        if (node.left == null &&  node.right == null)
+        {
+            return true;
+        }
+
+        // Tiene ambos hijos
+        if (node.left != null && node.right != null)
+        {
+            return IsFull(node.left) && IsFull(node.right);
+        }
+
+        return false;
+    }
+
+    public bool IsPerfect()
+    {
+        int h = Height();
+
+        int expected = 1;
+
+        for (int i = 0; i < h; i++)
+        {
+            expected = expected * 2;
+        }
+
+        expected = expected - 1;
+
+        return Count() == expected;
+    }
+
+    public string Classification()
+    {
+        string result = "";
+
+        if (IsPerfect())
+        {
+            result += "\nPerfect ";
+        }
+
+        if (IsFull())
+        {
+            result += "\nFull ";
+        }
+
+        if (IsBalanced())
+        {
+            result += "\nBalanced ";
+        }
+
+        if (IsDegenerate())
+        {
+            result += "\nDegenerate ";
+        }
+
+        return result;
     }
 }

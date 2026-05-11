@@ -9,9 +9,10 @@
     int Height();
     bool IsEmpty();
     void Clear();
-    void PreOrder();
-    void InOrder();
-    void PostOrder();
-    void LevelOrder();
+    string PreOrder();
+    string InOrder();
+    string PostOrder();
+    string LevelOrder();
     NodeTree<T>? GetRoot();
+    string Classification();
 }

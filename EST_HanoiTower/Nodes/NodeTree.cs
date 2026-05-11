@@ -3,6 +3,7 @@
     public T Value;
     public NodeTree<T> left;
     public NodeTree<T> right;
+    public int Height = 1;
 
     public NodeTree(T value)
     {
